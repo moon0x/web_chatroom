@@ -1,0 +1,70 @@
+
+body
+{
+    background: url(../Files/background.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+
+h1
+{
+    color: #fef6ff;
+    font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+    font-weight: 600;
+    font-size: 3.6em;
+    text-align: center;
+    opacity: 0.4;
+    text-wrap: none;
+
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-left: -335px;
+}
+
+#enterChat
+{
+    border-top: 1px solid #b5b5b5;
+    background: #9c9c9c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#9c9c9c));
+    background: -webkit-linear-gradient(top, #ffffff, #9c9c9c);
+    background: -moz-linear-gradient(top, #ffffff, #9c9c9c);
+    background: -ms-linear-gradient(top, #ffffff, #9c9c9c);
+    background: -o-linear-gradient(top, #ffffff, #9c9c9c);
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #2E3740;
+    font-size: 16px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -70px;
+    opacity: 0.4;
+}
+#enterChat:hover
+{
+    border-top-color: #4d4d4d;
+    background: #4d4d4d;
+    color: #ccc;
+    cursor: pointer;
+}
+
+#enterChat:active
+{
+    border-top-color: #e2eaf0;
+    background: #e2eaf0;
+}
+
+
+
+
+
